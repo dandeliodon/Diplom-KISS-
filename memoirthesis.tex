@@ -146,23 +146,29 @@
 %
 %
 %
+
 \begin{document}
+\chapterstyle{section}
+\setlength{\beforechapskip}{0pt}     % Убирает отступ ПЕРЕД заголовком главы
+\setlength{\midchapskip}{0pt}        % Убирает промежуток между номером и названием
+\setlength{\afterchapskip}{10pt}     % Отступ после заголовка (можно тоже 0pt)
 % 
 %
 % 
 \frontmatter
-\pagenumbering{roman}
+\pagestyle{plain} % ❗ Отключает заголовки и колонтитулы на всех frontmatter-страницах
+\pagenumbering{arabic}
 %
 \input{frontmatter/title}
 %\clearemptydoublepage
-%
-\input{frontmatter/abstract}
-\clearemptydoublepage
 %
 \input{frontmatter/dedication}
 %\clearemptydoublepage
 %
 \input{frontmatter/declaration}
+%\clearemptydoublepage
+%
+\input{frontmatter/abstract}
 %\clearemptydoublepage
 %
 %\clearemptydoublepage
@@ -186,16 +192,19 @@
 %
 \mainmatter
 %
-\import{chapters/chapter01/}{introduction.tex}
+\import{chapters}{introduction.tex}
 % \clearemptydoublepage
 %
-\import{chapters/chapter02/}{main.tex}
+\import{chapters}{problem-statement.tex}
+% \clearemptydoublepage
 %
-\import{chapters/chapter03/}{conclusion.tex}
+\import{chapters}{main.tex}
+%
+\import{chapters}{conclusion.tex}
 %
 % And the appendix goes here
 \appendix
-\import{chapters/appendices/}{app0A.tex}
+\import{chapters}{app0A.tex}
 %\clearemptydoublepage
 %
 % Apparently the guidelines don't say anything about citations or

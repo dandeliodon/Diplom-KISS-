@@ -1,14 +1,17 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Abstract}{i}{chapter*.1}%
-\contentsline {chapter}{Dedication and acknowledgements}{ii}{chapter*.2}%
-\contentsline {chapter}{Author's declaration}{iii}{chapter*.3}%
-\contentsline {chapter}{List of Tables}{iv}{section*.4}%
-\contentsline {chapter}{List of Figures}{v}{section*.5}%
+\contentsline {chapter}{Author's dedication}{1}{chapter*.1}%
+\contentsline {chapter}{Author's declaration}{2}{chapter*.2}%
+\contentsline {chapter}{Abstract}{3}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{3}{section*.4}%
+\contentsline {chapter}{List of Figures}{4}{section*.5}%
 \par \nobreak \mbox {}\hfill {\bfseries }\par \nobreak 
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
-\contentsline {chapter}{\chapternumberline {2}Chapter Title}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Section title}{2}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Subsection title}{2}{subsection.2.1.1}%
-\contentsline {chapter}{\chapternumberline {3}Conclusion}{3}{chapter.3}%
-\contentsline {appendix}{\chapternumberline {A}Appendix A}{4}{appendix.A}%
-\contentsline {chapter}{Bibliography}{5}{appendix*.9}%
+\contentsline {chapter}{\chapternumberline {2}Problem Statement}{3}{chapter.2}%
+\contentsline {chapter}{Problem Statement}{3}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {3}Chapter Title}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Section title}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Section title}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Subsection title}{5}{subsection.3.2.1}%
+\contentsline {chapter}{\chapternumberline {4}Conclusion}{6}{chapter.4}%
+\contentsline {appendix}{\chapternumberline {A}Appendix A}{7}{appendix.A}%
+\contentsline {chapter}{Bibliography}{8}{appendix*.9}%
